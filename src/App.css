@@ -40,3 +40,47 @@
 .read-the-docs {
   color: #888;
 }
+
+
+body {
+  background-image: url('/src/assets/pelii.webp');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  min-height: 100vh;
+  background-attachment: fixed; 
+  margin: 0; 
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+
+
+.app-container {
+  background-image: url('/assets/pelii.webp');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  background-attachment: fixed; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.movie-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+.movie-card .card-body {
+  background-color: #343a40;
+  color: white;
+}
+
+.movie-card .card-title {
+  color: #ffd700;
+}
+
+.movie-card .card-text {
+  color: #f8f9fa;
+}

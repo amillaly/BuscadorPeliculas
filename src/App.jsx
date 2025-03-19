@@ -1,12 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 import MovieSearchApp from "./components/movieSearchApp";
 
 function App() {
-  return <MovieSearchApp />;
+  return (
+    <div className="app-container">
+      <MovieSearchApp />
+    </div>
+  );
 }
 
 export default App;
+
 
 
 /*
