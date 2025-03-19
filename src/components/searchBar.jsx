@@ -18,7 +18,7 @@ const SearchBar = ({ onSearch }) => {
   return (
     <Form className="d-flex my-3" onSubmit={handleSearch}>
       <InputGroup className="me-2">
-        <InputGroup.Text>
+        <InputGroup.Text className="bg-warning border-warning">
           <i className="bi bi-search"></i>
         </InputGroup.Text>
       <FormControl
@@ -35,7 +35,7 @@ const SearchBar = ({ onSearch }) => {
         }}
       />
       </InputGroup>
-      <Button variant="primary" type="submit" style={{ backgroundColor: '#f5a623', borderColor: '#f5a623' }}>
+      <Button variant="warning" type="submit">
         Buscar
       </Button>
     </Form>

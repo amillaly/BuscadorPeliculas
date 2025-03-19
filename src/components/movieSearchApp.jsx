@@ -54,7 +54,7 @@ const MovieSearchApp = () => {
 
   return (
     <Container className="my-4">
-      <h1 className="text-center">Buscador de Películas</h1>
+      <h1 className="text-center"><strong>Buscador de Películas</strong></h1>
       <SearchBar onSearch={handleSearch} />
       {loading ? <LoadingSpinner /> : <MovieList movies={movies} />}
     </Container>
