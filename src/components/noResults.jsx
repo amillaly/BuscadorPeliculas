@@ -6,7 +6,7 @@ const NoResults = () => {
   return (
     <div className="text-center my-4">
       <Image src={noResultsImg} alt="No hay resultados" fluid width={300} />
-      <h5 className="mt-3 text-muted">No se han encontrado resultados :( </h5>
+      <h5 className="mt-3 text-muted">Ups....No se han encontrado resultados </h5>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { Card } from "react-bootstrap";
 const MovieCard = ({ title, posterPath, overview }) => {
   const imageUrl = posterPath
     ? `https://image.tmdb.org/t/p/w500${posterPath}`
-    : "https://via.placeholder.com/300x450?text=No+Image"; // Imagen por defecto si no hay poster
+    : "src/assets/noResultsExample.jpg";
 
   return (
     <Card className="movie-card bg-dark text-white border-primary">
