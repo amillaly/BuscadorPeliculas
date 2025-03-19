@@ -4,7 +4,7 @@ import noResultsImg from "../assets/crying-cat.webp";
 
 const NoResults = () => {
   const catStyle = {
-    width: '150px',
+    width: '300px',
     animation: 'bounce 1.5s infinite', 
   };
 
@@ -22,7 +22,10 @@ const NoResults = () => {
   return (
     <div className="text-center my-4">
       <style>{keyframesStyle}</style>
-      <Image src={noResultsImg} alt="No hay resultados" fluid width={300} style={catStyle} />
+      <br></br>
+      <br></br>
+      <br></br>
+      <Image src={noResultsImg} alt="No hay resultados" fluid width={400} style={catStyle} />
       <h5 className="mt-3 text-muted">Ups....No se han encontrado resultados </h5>
     </div>
   );
