@@ -14,6 +14,7 @@ const MovieList = ({ movies }) => {
                 title={movie.title}
                 posterPath={movie.poster_path}
                 overview={movie.overview}
+                movieId={movie.id}//Agregar lista de actores                
               />
             </Col>
           ))}

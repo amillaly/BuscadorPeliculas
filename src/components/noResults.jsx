@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import noResultsImg from "../assets/crying-cat.webp";
+import noResultsImg from "../assets/loa.gif";
 
 const NoResults = () => {
   const catStyle = {
