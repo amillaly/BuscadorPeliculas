@@ -43,7 +43,7 @@ const SearchBar = ({ onSearch }) => {
         >
           <Alert.Heading style={{ fontSize: "1.25rem", fontWeight: "bold" }}>AL PARECER HUBO UN ERROR!</Alert.Heading>
           <p>
-            Por favor, ingresa un término válido. Asegúrate de no incluir espacios innecesarios y utiliza solo letras y números.
+            Por favor, ingresa un término válido. No incluyas espacios innecesarios y utiliza solo letras y números.
           </p>
         </Alert>
       )}
