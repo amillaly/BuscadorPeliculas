@@ -41,7 +41,7 @@ const SearchBar = ({ onSearch }) => {
           dismissible
           style={{ backgroundColor: "#ff4c4c", color: "#fff", border: "1px solid #ff0000" }} 
         >
-          <Alert.Heading style={{ fontSize: "1.25rem", fontWeight: "bold" }}>Término de búsqueda inválido</Alert.Heading>
+          <Alert.Heading style={{ fontSize: "1.25rem", fontWeight: "bold" }}>AL PARECER HUBO UN ERROR!</Alert.Heading>
           <p>
             Por favor, ingresa un término válido. Asegúrate de no incluir espacios innecesarios y utiliza solo letras y números.
           </p>
