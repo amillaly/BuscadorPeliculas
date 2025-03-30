@@ -1,4 +1,4 @@
-#root {
+#root { 
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -38,9 +38,8 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #888888;
 }
-
 
 body {
   background-image: url('/src/assets/pelii.webp');
@@ -52,8 +51,6 @@ body {
   margin: 0; 
   font-family: 'Comic Sans MS', cursive, sans-serif;
 }
-
-
 
 .app-container {
   background-image: url('/assets/pelii.webp');
@@ -67,20 +64,46 @@ body {
 }
 
 .movie-card {
+  width: 18rem; /* Ancho fijo */
+  height: 500px; /* Altura fija para uniformidad */
+  display: flex;
+  flex-direction: column;
   border: 1px solid #ddd;
   border-radius: 10px;
   background-color: #f8f9fa;
+  overflow: hidden;
+}
+
+.movie-card img {
+  height: 250px; /* Tamaño uniforme para imágenes */
+  object-fit: cover;
 }
 
 .movie-card .card-body {
+  flex: 1;
   background-color: #343a40;
   color: white;
-}
-
-.movie-card .card-title {
-  color: #ffd700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+  padding: 10px;
+  max-height: 250px; /* Permite desplazamiento si el contenido es largo */
 }
 
 .movie-card .card-text {
   color: #f8f9fa;
+  flex-grow: 1;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+  white-space: normal;
+  max-height: 120px;
+  padding-right: 5px;
+}
+
+.movie-card .scrollable-content {
+  overflow-y: auto;
+  max-height: 150px; /* Ajuste de altura para permitir el desplazamiento vertical */
+  padding-right: 5px;
+  padding-bottom: 10px;
 }

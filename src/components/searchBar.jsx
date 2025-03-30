@@ -68,9 +68,9 @@ const SearchBar = ({ onSearch }) => {
             }}
           />
         </InputGroup>
-        <Button variant="warning" type="submit">
+        {/* <Button variant="warning" type="submit">
           Buscar
-        </Button>
+        </Button> */}
       </Form>
     </>
   );
