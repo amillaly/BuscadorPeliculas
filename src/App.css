@@ -1,4 +1,4 @@
-#root { 
+#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -64,8 +64,8 @@ body {
 }
 
 .movie-card {
-  width: 18rem; /* Ancho fijo */
-  height: 500px; /* Altura fija para uniformidad */
+  width: 22rem; /* Aumentado el ancho */
+  height: 500px; /* Mantiene la altura fija */
   display: flex;
   flex-direction: column;
   border: 1px solid #ddd;
@@ -75,7 +75,7 @@ body {
 }
 
 .movie-card img {
-  height: 250px; /* Tamaño uniforme para imágenes */
+  height: 250px;
   object-fit: cover;
 }
 
@@ -83,12 +83,7 @@ body {
   flex: 1;
   background-color: #343a40;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow-y: auto;
-  padding: 10px;
-  max-height: 250px; /* Permite desplazamiento si el contenido es largo */
+  font-size: 0.85rem; /* Disminuido el tamaño de fuente */
 }
 
 .movie-card .card-text {
@@ -99,11 +94,5 @@ body {
   white-space: normal;
   max-height: 120px;
   padding-right: 5px;
-}
-
-.movie-card .scrollable-content {
-  overflow-y: auto;
-  max-height: 150px; /* Ajuste de altura para permitir el desplazamiento vertical */
-  padding-right: 5px;
-  padding-bottom: 10px;
+  font-size: 0.8rem; /* Reducido el tamaño del texto para mejor ajuste */
 }
