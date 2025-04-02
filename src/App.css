@@ -64,7 +64,7 @@ body {
 }
 
 .movie-card {
-  width: 18rem; /* Ancho fijo */
+  width: 22rem; /* Tarjetas más anchas */
   height: 500px; /* Altura fija para uniformidad */
   display: flex;
   flex-direction: column;
@@ -83,12 +83,7 @@ body {
   flex: 1;
   background-color: #343a40;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow-y: auto;
-  padding: 10px;
-  max-height: 250px; /* Permite desplazamiento si el contenido es largo */
+  font-size: 0.8rem; /* Letra más pequeña */
 }
 
 .movie-card .card-text {
@@ -99,6 +94,7 @@ body {
   white-space: normal;
   max-height: 120px;
   padding-right: 5px;
+  font-size: 0.75rem; /* Letra aún más pequeña para mejor visibilidad */
 }
 
 .movie-card .scrollable-content {
@@ -126,5 +122,17 @@ body {
   .row > .col-md-4 {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .movie-card {
+    width: 90%; /* Más ancho en móviles */
+  }
+
+  .movie-card .card-body {
+    font-size: 0.7rem; /* Ajuste para móviles */
+  }
+
+  .movie-card .card-text {
+    font-size: 0.7rem; /* Ajuste para móviles */
   }
 }
